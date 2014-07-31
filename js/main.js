@@ -1,11 +1,7 @@
 var connectFour = (function(){
 
-	/*
 	var playerOne =  new Person(prompt('Enter name of Player One')),
 		playerTwo = new Person(prompt('Enter name of Player Two')),
-	*/
-	var playerOne,
-		playerTwo,
 		playersArray,
 		currentPlayerIndex;
 
