@@ -1,7 +1,7 @@
 var connectFour = (function(){
 
-	var playerOne =  new Person(prompt('Enter name of Player One')),
-		playerTwo = new Person(prompt('Enter name of Player Two')),
+	var playerOne,
+		playerTwo,
 		playersArray,
 		currentPlayerIndex;
 
@@ -10,8 +10,8 @@ var connectFour = (function(){
 		$('#restartBtn').unbind('click')
 		$('#restartBtn').hide();
 
-		playerOne =  new Person('Jon'),
-		playerTwo = new Person('Dauz'),
+		playerOne =  new Person(prompt('Enter name of Player One')),
+		playerTwo = new Person(prompt('Enter name of Player Two')),
 		playersArray = [playerOne,playerTwo],
 		currentPlayerIndex = Math.floor(Math.random() * 2); // Randomly choose a player to start 
 		
